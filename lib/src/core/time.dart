@@ -41,7 +41,7 @@ abstract class Time {
     return map(
       (frames) => frames,
       (percent) => (percent * parentDurationInFrames).round(),
-      (duration) => duration.inSeconds * fps,
+      (duration) => ((duration.inMilliseconds / 1000) * fps).round(),
     );
   }
 }

@@ -64,12 +64,14 @@ class Marker extends Equatable {
   const Marker(
     this.at,
     this.name, {
-    this.color = Colors.orange,
+    this.color = defaultColor,
   });
 
   final String name;
   final Time at;
   final Color color;
+
+  static const defaultColor = Colors.orange;
 
   @override
   List<Object?> get props => [name, at, color];

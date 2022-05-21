@@ -1,3 +1,7 @@
-## 0.0.1
+## 0.0.2-alpha
 
-* TODO: Describe initial release.
+* Added `freezedBefore` and `freezedAfter` to `Seauence`.
+
+## 0.0.1-alpha
+
+* Initial version.

@@ -139,12 +139,27 @@ footage render
 ffmpeg -i build/video/frames/%d.png -pix_fmt yuva420p -filter:v fps=30 build/video/out.webm
 ```
 
+## Examples
+
+#### [Basic](example/lib/scenes/basic.dart)
+
+![screenshot](doc/basic.gif)
+
+#### [Hello Waves](example/lib/scenes/hello_waves.dart)
+
+![screenshot](doc/hello_waves.gif)
+
+#### [Slidedeck](example/lib/scenes/hello_waves.dart)
+
+![screenshot](doc/slidedeck.gif)
+
 ## Roadmap
 
 - [ ] Asset management when rendering
 - [ ] Asynchronous frame rendering
 - [ ] More default ffmpeg video rendering options
 - [ ] Embeddable player for Flutter apps
+- [ ] Preview speed (x0.25, x0.5, x2)
 - [ ] Slideshow preview mode for presentation
 - [ ] More examples
 - [ ] Website

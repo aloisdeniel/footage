@@ -1,7 +1,7 @@
 name: footage
 description: Write your videos in Flutter.
-version: 0.0.1
-homepage:
+version: 0.0.2-alpha
+homepage: https://github.com/aloisdeniel/footage
 
 executables:
   footage:
