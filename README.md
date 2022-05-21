@@ -6,7 +6,7 @@ Automate your video production with server-side rendering.
 
 ![preview editor](doc/editor.png)
 
-> Footage is still in early stage! Use it at your own risks, and API are subject to change.
+> Footage is still in early stage! Use it at your own risks, and APIs are subject to change.
 
 ## Quickstart
 
