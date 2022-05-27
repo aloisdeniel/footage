@@ -159,6 +159,7 @@ ffmpeg -i build/video/frames/%d.png -pix_fmt yuva420p -filter:v fps=30 build/vid
 - [ ] Asynchronous frame rendering
 - [ ] More default ffmpeg video rendering options
 - [ ] Embeddable player for Flutter apps
+- [ ] Audio support
 - [ ] Preview speed (x0.25, x0.5, x2)
 - [ ] Slideshow preview mode for presentation
 - [ ] More examples
